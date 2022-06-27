@@ -11,7 +11,7 @@ public class LixeiraRepository {
     private final static HashMap<Integer, Lixeira> lixeiras = new HashMap<>();
 
     public List<Lixeira> GetAll(){
-        return new ArrayList<Lixeira>(lixeiras.values());
+        return new ArrayList<>(lixeiras.values());
     }
 
     public Lixeira Get(final int id) {
